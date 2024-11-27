@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
-from utils.dt_utils import DecisionRules
+from src.utils.rule_utils import DecisionRules
 from datetime import timedelta
 
 

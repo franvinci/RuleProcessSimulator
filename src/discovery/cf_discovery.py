@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from pm4py.algo.conformance.alignments.petri_net import algorithm as alignments
-from utils.dt_utils import DecisionRules
+from src.utils.rule_utils import DecisionRules
 from sklearn.model_selection import GridSearchCV
 
 

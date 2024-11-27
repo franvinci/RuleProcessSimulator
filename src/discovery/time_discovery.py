@@ -1,5 +1,5 @@
 import numpy as np
-from utils.dt_utils import DecisionRules
+from src.utils.rule_utils import DecisionRules
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import GridSearchCV
 from tqdm import tqdm
